@@ -47,7 +47,7 @@ public class SecondBestRank {
                 .stream()
                 .sorted(Comparator.comparing(it -> it.getKey()))
                 .toList()
-                .get(0);
+                .get(1);
 
         System.out.println("finalResult2 = " + finalResult2);
 
